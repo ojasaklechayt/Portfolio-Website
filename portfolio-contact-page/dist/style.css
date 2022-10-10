@@ -1,0 +1,1084 @@
+body {
+  background-color: #bfe7cd;
+}
+
+/*Extra Large Desktop 1*/
+@media only screen and (min-width: 1400px) {
+
+  /*Navigation Bar Styling*/
+  #navbar {
+    opacity: 0.9;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A
+  }
+
+  li,
+  a,
+  button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+  }
+
+  #homebar {
+    cursor: pointer;
+  }
+
+  .nav_links {
+    list-style: none;
+  }
+
+  .nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+
+  .nav_links li a {
+    transition: all 0.3s ease 0s;
+  }
+
+  .nav_links li a:hover {
+    color: #04aa6d;
+  }
+
+  button {
+    padding: 9px 25px;
+    background-color: #04aa6d;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-right: 10px;
+
+  }
+
+  button:hover {
+    background-color: #00bf72;
+  }
+
+  /*Contact Logos*/
+  #contactme {
+    font-size: 40px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    opacity: 0.7;
+    margin-left: 260px;
+    margin-top: 200px;
+  }
+
+  .contact {
+    display: inline-block;
+    margin-top: -30px;
+    margin-left: 250px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    cursor: pointer;
+  }
+
+  /*Form*/
+  .contact-box {
+    font-family: "Source Sans Pro", sans-serif;
+    width: 500px;
+    border-radius: 10%;
+    background-color: #f1fff6;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 20px 0 #999;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 50px;
+  }
+
+  form {
+    margin: 35px;
+  }
+
+  .input-field {
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+  }
+
+  .textarea-field {
+    font-family: "Source Sans Pro", sans-serif;
+    height: 150px;
+    padding-top: 10px;
+  }
+
+  .btn {
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #04aa6d;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+  }
+
+  #send-something {
+    font-family: "Source Sans Pro", sans-serif;
+    margin-left: 65px;
+    margin-bottom: -10px;
+    font-size: 30px;
+    opacity: 0.7;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+
+  /*Made with love*/
+  #madewithlove {
+    font-family: "Source Sans Pro", sans-serif;
+    margin-top: 380px;
+    margin-right: auto;
+  }
+}
+
+/*Extra Large Desktop 2*/
+@media only screen and (min-width: 1201px) and (max-width: 1399px) {
+
+  /*Navigation Bar Styling*/
+  #navbar {
+    opacity: 0.9;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A
+  }
+
+  li,
+  a,
+  button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+  }
+
+  #homebar {
+    cursor: pointer;
+  }
+
+  .nav_links {
+    list-style: none;
+  }
+
+  .nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+
+  .nav_links li a {
+    transition: all 0.3s ease 0s;
+  }
+
+  .nav_links li a:hover {
+    color: #04aa6d;
+  }
+
+  button {
+    padding: 9px 25px;
+    background-color: #04aa6d;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-right: 10px;
+
+  }
+
+  button:hover {
+    background-color: #00bf72;
+  }
+
+  /*Contact Logos*/
+  #contactme {
+    font-size: 40px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    opacity: 0.7;
+    margin-left: 260px;
+    margin-top: 200px;
+  }
+
+  .contact {
+    display: inline-block;
+    margin-top: -30px;
+    margin-left: 250px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    cursor: pointer;
+  }
+
+  /*Form*/
+  .contact-box {
+    font-family: "Source Sans Pro", sans-serif;
+    width: 400px;
+    border-radius: 10%;
+    background-color: #f1fff6;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 20px 0 #999;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 50px;
+  }
+
+  form {
+    margin: 35px;
+  }
+
+  .input-field {
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+  }
+
+  .textarea-field {
+    font-family: "Source Sans Pro", sans-serif;
+    height: 150px;
+    padding-top: 10px;
+  }
+
+  .btn {
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #04aa6d;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+  }
+
+  #send-something {
+    font-family: "Source Sans Pro", sans-serif;
+    margin-left: 30px;
+    margin-bottom: -10px;
+    font-size: 30px;
+    opacity: 0.7;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+
+  /*Made with love*/
+  #madewithlove {
+    font-family: "Source Sans Pro", sans-serif;
+    margin-top: 295px;
+    margin-right: auto;
+  }
+}
+
+/*Desktop*/
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+
+  /*Navigation Bar Styling*/
+  #navbar {
+    opacity: 0.9;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A
+  }
+
+  li,
+  a,
+  button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+  }
+
+  #homebar {
+    cursor: pointer;
+  }
+
+  .nav_links {
+    list-style: none;
+  }
+
+  .nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+
+  .nav_links li a {
+    transition: all 0.3s ease 0s;
+  }
+
+  .nav_links li a:hover {
+    color: #04aa6d;
+  }
+
+  button {
+    padding: 9px 25px;
+    background-color: #04aa6d;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-right: 10px;
+
+  }
+
+  button:hover {
+    background-color: #00bf72;
+  }
+
+  /*Contact Logos*/
+  #contactme {
+    font-size: 40px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    opacity: 0.7;
+    margin-left: 260px;
+    margin-top: 200px;
+  }
+
+  .contact {
+    display: inline-block;
+    margin-top: -30px;
+    margin-left: 250px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    cursor: pointer;
+  }
+
+  /*Form*/
+  .contact-box {
+    font-family: "Source Sans Pro", sans-serif;
+    width: 400px;
+    border-radius: 10%;
+    background-color: #f1fff6;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 20px 0 #999;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 50px;
+  }
+
+  form {
+    margin: 35px;
+  }
+
+  .input-field {
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+  }
+
+  .textarea-field {
+    font-family: "Source Sans Pro", sans-serif;
+    height: 150px;
+    padding-top: 10px;
+  }
+
+  .btn {
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #04aa6d;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+  }
+
+  #send-something {
+    font-family: "Source Sans Pro", sans-serif;
+    margin-left: 30px;
+    margin-bottom: -10px;
+    font-size: 30px;
+    opacity: 0.7;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+
+  /*Made with love*/
+  #madewithlove {
+    font-family: "Source Sans Pro", sans-serif;
+    margin-top: 295px;
+    margin-right: auto;
+  }
+}
+
+/*Small Desktops*/
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+  /*Navigation Bar Styling*/
+  #navbar {
+    opacity: 0.9;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A
+  }
+
+  li,
+  a,
+  button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+  }
+
+  #homebar {
+    cursor: pointer;
+  }
+
+  .nav_links {
+    list-style: none;
+  }
+
+  .nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+
+  .nav_links li a {
+    transition: all 0.3s ease 0s;
+  }
+
+  .nav_links li a:hover {
+    color: #04aa6d;
+  }
+
+  button {
+    padding: 9px 25px;
+    background-color: #04aa6d;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-right: 10px;
+
+  }
+
+  button:hover {
+    background-color: #00bf72;
+  }
+
+  /*Contact Logos*/
+  #contactme {
+    font-size: 40px;
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    opacity: 0.7;
+    /*margin-left: 130px;*/
+    margin-top: 150px;
+  }
+
+  .contact {
+    align-items: center;
+    margin-left: 38%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: -3ex;
+    /*
+    display: inline-block;
+    margin-top: -30px;
+    margin-left: 335px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    */
+    cursor: pointer;
+  }
+
+  /*Form*/
+  .contact-box {
+    font-family: "Source Sans Pro", sans-serif;
+    width: 450px;
+    border-radius: 10%;
+    background-color: #f1fff6;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 20px 0 #999;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 350px;
+  }
+
+  form {
+    margin: 35px;
+  }
+
+  .input-field {
+    width: 350px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+  }
+
+  .textarea-field {
+    font-family: "Source Sans Pro", sans-serif;
+    height: 150px;
+    padding-top: 10px;
+  }
+
+  .btn {
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #04aa6d;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+  }
+
+  #send-something {
+    font-family: "Source Sans Pro", sans-serif;
+    margin-left: 45px;
+    margin-bottom: -10px;
+    font-size: 30px;
+    opacity: 0.7;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+
+  /*Made with love*/
+  #madewithlove {
+    font-family: "Source Sans Pro", sans-serif;
+    margin-top: 595px;
+    margin-right: auto;
+  }
+}
+/*Ipads and Tablets 1*/
+@media only screen and (min-width: 632px) and (max-width: 768px) {
+
+  /*Navigation Bar Styling*/
+  #navbar {
+    opacity: 0.9;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A
+  }
+
+  li,
+  a,
+  button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+  }
+
+  #homebar {
+    cursor: pointer;
+  }
+
+  .nav_links {
+    list-style: none;
+  }
+
+  .nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+
+  .nav_links li a {
+    transition: all 0.3s ease 0s;
+  }
+
+  .nav_links li a:hover {
+    color: #04aa6d;
+  }
+
+  button {
+    padding: 9px 25px;
+    background-color: #04aa6d;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-right: 10px;
+
+  }
+
+  button:hover {
+    background-color: #00bf72;
+  }
+
+  /*Contact Logos*/
+  #contactme {
+    font-size: 40px;
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    opacity: 0.7;
+    /*margin-left: 130px;*/
+    margin-top: 150px;
+  }
+
+  .contact {
+    display: inline-block;
+    margin-top: -30px;
+    margin-left: 235px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    cursor: pointer;
+  }
+
+  /*Form*/
+  .contact-box {
+    font-family: "Source Sans Pro", sans-serif;
+    width: 450px;
+    border-radius: 10%;
+    background-color: #f1fff6;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 20px 0 #999;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 350px;
+  }
+
+  form {
+    margin: 35px;
+  }
+
+  .input-field {
+    width: 350px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+  }
+
+  .textarea-field {
+    font-family: "Source Sans Pro", sans-serif;
+    height: 150px;
+    padding-top: 10px;
+  }
+
+  .btn {
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #04aa6d;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+  }
+
+  #send-something {
+    font-family: "Source Sans Pro", sans-serif;
+    margin-left: 45px;
+    margin-bottom: -10px;
+    font-size: 30px;
+    opacity: 0.7;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+
+  /*Made with love*/
+  #madewithlove {
+    font-family: "Source Sans Pro", sans-serif;
+    margin-top: 695px;
+    margin-right: auto;
+  }
+}
+
+/*Ipads and Tablets 2*/
+@media only screen and (min-width: 481px) and (max-width: 631px) {
+
+  /*Navigation Bar Styling*/
+  #navbar {
+    opacity: 0.9;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A
+  }
+
+  li,
+  a,
+  button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+  }
+
+  #homebar {
+    cursor: pointer;
+  }
+
+  .nav_links {
+    list-style: none;
+  }
+
+  .nav_links li {
+    display: inline-block;
+    padding: 0px 10px;
+  }
+
+  .nav_links li a {
+    transition: all 0.3s ease 0s;
+  }
+
+  .nav_links li a:hover {
+    color: #04aa6d;
+  }
+
+  button {
+    padding: 9px 25px;
+    background-color: #04aa6d;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-right: 10px;
+
+  }
+
+  button:hover {
+    background-color: #00bf72;
+  }
+
+  /*Contact Logos*/
+  #contactme {
+    font-size: 40px;
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    opacity: 0.7;
+    /*margin-left: 130px;*/
+    margin-top: 150px;
+  }
+
+  .contact {
+    display: inline-block;
+    margin-top: -30px;
+    margin-left: 165px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    cursor: pointer;
+  }
+
+  /*Form*/
+  .contact-box {
+    font-family: "Source Sans Pro", sans-serif;
+    width: 450px;
+    border-radius: 10%;
+    background-color: #f1fff6;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 20px 0 #999;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 350px;
+  }
+
+  form {
+    margin: 35px;
+  }
+
+  .input-field {
+    width: 350px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+  }
+
+  .textarea-field {
+    font-family: "Source Sans Pro", sans-serif;
+    height: 150px;
+    padding-top: 10px;
+  }
+
+  .btn {
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #04aa6d;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+  }
+
+  #send-something {
+    font-family: "Source Sans Pro", sans-serif;
+    margin-left: 45px;
+    margin-bottom: -10px;
+    font-size: 30px;
+    opacity: 0.7;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+
+  /*Made with love*/
+  #madewithlove {
+    font-family: "Source Sans Pro", sans-serif;
+    margin-top: 695px;
+    margin-right: auto;
+  }
+}
+
+/*Mobile Phones*/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+  /*Navigation Bar Styling*/
+  #navbar {
+    opacity: 0.9;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A
+  }
+
+  li,
+  a,
+  button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+  }
+
+  #homebar {
+    cursor: pointer;
+  }
+
+  .nav_links {
+    list-style: none;
+  }
+
+  .nav_links li {
+    display: inline-block;
+    padding: 0px 3px;
+  }
+
+  .nav_links li a {
+    transition: all 0.3s ease 0s;
+  }
+
+  .nav_links li a:hover {
+    color: #04aa6d;
+  }
+
+  button {
+    padding: 9px 25px;
+    background-color: #04aa6d;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-right: 10px;
+
+  }
+
+  button:hover {
+    background-color: #00bf72;
+  }
+
+  /*Contact Logos*/
+  #contactme {
+    font-size: 40px;
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    opacity: 0.7;
+    /*margin-left: 130px;*/
+    margin-top: 100px;
+  }
+
+  .contact {
+    display: inline-block;
+    margin-top: -30px;
+    margin-left: 85px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    cursor: pointer;
+  }
+
+  /*Form*/
+  .contact-box {
+    font-family: "Source Sans Pro", sans-serif;
+    width: 350px;
+    border-radius: 10%;
+    background-color: #f1fff6;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 20px 0 #999;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 250px;
+  }
+
+  form {
+    margin: 35px;
+  }
+
+  .input-field {
+    width: 250px;
+    height: 30px;
+    margin-top: 15px;
+    padding-left: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+  }
+
+  .textarea-field {
+    font-family: "Source Sans Pro", sans-serif;
+    height: 100px;
+    padding-top: 10px;
+  }
+
+  .btn {
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #04aa6d;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+  }
+
+  #send-something {
+    font-family: "Source Sans Pro", sans-serif;
+    margin-left: 45px;
+    margin-bottom: -10px;
+    font-size: 20px;
+    opacity: 0.7;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+
+  /*Made with love*/
+  #madewithlove {
+    font-family: "Source Sans Pro", sans-serif;
+    margin-top: 595px;
+    margin-right: auto;
+  }
+}

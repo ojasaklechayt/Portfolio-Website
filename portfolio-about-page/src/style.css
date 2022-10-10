@@ -1,0 +1,139 @@
+/*Main Text*/
+#maintext {
+  text-align: justify;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  opacity: 0.7;
+  padding: 100px 15%;
+}
+#p1 {
+  font-size: 70px;
+  margin: 0em;
+  line-height: 0;
+}
+#p2 {
+  font-size: 20px;
+  line-height: 0.5;
+}
+
+body{
+  background-color: #f1fff6;
+}
+
+/*Navigation Bar Styling*/
+#navbar{
+  opacity:0.9;
+  border-top-right-radius:30px;
+  border-bottom-right-radius:30px;
+  border-top-left-radius:30px;
+  border-bottom-left-radius:30px;
+  box-sizing: border-box;
+  margin_ 0;
+  padding: 0;
+  background-color: #24252A}
+
+button{
+  /*background-color: #24252A;*/
+}
+li, a, button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 10%; 
+}
+
+#homebar{
+  cursor: pointer;
+}
+
+.nav_links{
+  list-style:none;
+}
+.nav_links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav_links li a{
+  transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+  color: #04aa6d;
+}
+#contact{
+  padding: 9px 25px;
+  background-color: #04aa6d;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-right: 10px;
+  
+}
+#contact:hover{
+  background-color: #00bf72;
+}
+
+/*CV/Resume Button*/
+#cv{
+  padding: 9px 25px;
+  background-color: #04aa6d;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: black;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+}
+
+#cv:hover{
+  background-color: #00bf72;
+}
+
+/*Skills*/
+#my_skills{
+  text-align: right;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  opacity: 0.7;
+  position: relative;
+  left: 0px; 
+  padding-right: 300px;
+  top: -385px;
+}
+.skills{
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  padding-left: 920px;
+  margin-top: -400px;
+}
+#c{
+  width: 33px;
+  height: 33px;
+  cursor: pointer;
+}
+.skills {
+  display: flex;
+}
+
+.xyz {
+  flex: 33.33%;
+  padding: px;
+}
+
+/*Made with love*/
+#madewithlove{
+  font-family: "Source Sans Pro", sans-serif;
+  margin-top: 120px;
+  margin-left: 1250px;
+}

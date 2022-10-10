@@ -1,0 +1,64 @@
+#ojasphoto {
+  border-radius: 50%;
+  height: auto;
+  width: 350px;
+  display: block;
+  margin-left: 150px;
+  margin-right: 50px;
+  float: left;
+  padding: 60px;
+  padding-left: -50px;
+}
+
+body {
+  background-color: #aaf0d1;
+}
+
+#maintext {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  opacity: 0.7;
+  text-align: center;
+  padding: 85px;
+  padding-left: 500px;
+}
+#p1 {
+  font-size: 70px;
+  margin: 0em;
+  line-height: 0.98;
+}
+#p2 {
+  font-size: 30px;
+  margin: -0.3em;
+}
+
+#navbar {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.8;
+  background-color: #0C090A;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #04aa6d;
+  color: #0C090A;
+}
+
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}

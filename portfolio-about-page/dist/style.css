@@ -1,0 +1,974 @@
+/*Background Color*/
+body{
+  background-color: #bfe7cd;
+}
+/*Extra Large Desktop 1*/
+@media only screen and (min-width: 1400px){
+/*Main Text*/
+#maintext {
+  text-align: justify;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  opacity: 0.7;
+  padding: 100px 15%;
+}
+#p1 {
+  font-size: 70px;
+  margin: 0em;
+  line-height: 0;
+}
+#p2 {
+  font-size: 20px;
+  line-height: 0.5;
+}
+
+/*Navigation Bar Styling*/
+#navbar{
+  opacity:0.9;
+  border-top-right-radius:30px;
+  border-bottom-right-radius:30px;
+  border-top-left-radius:30px;
+  border-bottom-left-radius:30px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #24252A;}
+
+button{
+  /*background-color: #24252A;*/
+}
+li, a, button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 10%; 
+}
+
+#homebar{
+  cursor: pointer;
+}
+
+.nav_links{
+  list-style:none;
+}
+.nav_links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav_links li a{
+  transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+  color: #04aa6d;
+}
+button{
+  padding: 9px 25px;
+  background-color: #04aa6d;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-right: 10px;
+  
+}
+button:hover{
+  background-color: #00bf72;
+}
+
+/*CV/Resume Button*/
+#cv{
+  padding: 9px 25px;
+  background-color: #04aa6d;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: black;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+}
+
+#cv:hover{
+  background-color: #00bf72;
+}
+
+/*Skills*/
+#my_skills{
+  text-align: right;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  opacity: 0.7;
+  position: relative;
+  left: -200px; 
+  top: -385px;
+}
+.skills{
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  display: flex;
+  align-self: flex-end;
+  margin-left: 72%;
+  margin-top: -400px;
+}
+
+#c{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.skills {
+  display: flex;
+}
+
+.xyz {
+  flex: 33.33%;
+  padding: 2px;
+}
+
+/*Made with love*/
+#madewithlove{
+  font-family: "Source Sans Pro", sans-serif;
+  margin-top: 130px;
+  margin-right: auto;
+}
+}
+
+/*Extra Large Desktop 2*/
+@media only screen and (min-width: 1201px) and (max-width: 1399px){
+  /*Main Text*/
+  #maintext {
+    text-align: justify;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    opacity: 0.7;
+    padding: 100px 15%;
+  }
+  #p1 {
+    font-size: 70px;
+    margin: 0em;
+    line-height: 0;
+  }
+  #p2 {
+    font-size: 20px;
+    line-height: 0.5;
+  }
+  
+  /*Navigation Bar Styling*/
+  #navbar{
+    opacity:0.9;
+    border-top-right-radius:30px;
+    border-bottom-right-radius:30px;
+    border-top-left-radius:30px;
+    border-bottom-left-radius:30px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;}
+  li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+  
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%; 
+  }
+  
+  #homebar{
+    cursor: pointer;
+  }
+  
+  .nav_links{
+    list-style:none;
+  }
+  .nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  .nav_links li a{
+    transition: all 0.3s ease 0s;
+  }
+  .nav_links li a:hover{
+    color: #04aa6d;
+  }
+  button{
+    padding: 9px 25px;
+    background-color: #04aa6d;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-right: 10px;
+    
+  }
+  button:hover{
+    background-color: #00bf72;
+  }
+  
+  /*CV/Resume Button*/
+  #cv{
+    padding: 9px 25px;
+    background-color: #04aa6d;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: black;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+  }
+  
+  #cv:hover{
+    background-color: #00bf72;
+  }
+  
+  /*Skills*/
+  #my_skills{
+    text-align: right;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    opacity: 0.7;
+    position: relative;
+    left: -200px; 
+    top: -385px;
+  }
+  .skills{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    display: flex;
+    align-self: flex-end;
+    margin-left: 72%;
+    margin-top: -400px;
+  }
+  #c{
+    width: 33px;
+    height: 33px;
+    cursor: pointer;
+  }
+  .skills {
+    display: flex;
+  }
+  
+  .xyz {
+    flex: 33.33%;
+    padding: px;
+  }
+  
+  /*Made with love*/
+  #madewithlove{
+    font-family: "Source Sans Pro", sans-serif;
+    margin-top: 270px;
+    margin-right: auto;
+  }
+}
+
+/*Desktop*/
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
+  /*Main Text*/
+#maintext {
+  text-align: justify;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  opacity: 0.7;
+  padding: 100px 15%;
+}
+#p1 {
+  font-size: 70px;
+  margin: 0em;
+  line-height: 0;
+}
+#p2 {
+  font-size: 20px;
+  line-height: 0.5;
+}
+
+/*Navigation Bar Styling*/
+#navbar{
+  opacity:0.9;
+  border-top-right-radius:30px;
+  border-bottom-right-radius:30px;
+  border-top-left-radius:30px;
+  border-bottom-left-radius:30px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #24252A;}
+
+button{
+  /*background-color: #24252A;*/
+}
+li, a, button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 10%; 
+}
+
+#homebar{
+  cursor: pointer;
+}
+
+.nav_links{
+  list-style:none;
+}
+.nav_links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav_links li a{
+  transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+  color: #04aa6d;
+}
+button{
+  padding: 9px 25px;
+  background-color: #04aa6d;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-right: 10px;
+  
+}
+button:hover{
+  background-color: #00bf72;
+}
+
+/*CV/Resume Button*/
+#cv{
+  padding: 9px 25px;
+  background-color: #04aa6d;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: black;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+}
+
+#cv:hover{
+  background-color: #00bf72;
+}
+
+/*Skills*/
+#my_skills{
+  text-align: right;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  opacity: 0.7;
+  position: relative; 
+  margin-right: 220px;
+  top: -385px;
+}
+.skills{
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  margin-left: 640px;
+  margin-top: -400px;
+}
+#c{
+  width: 33px;
+  height: 33px;
+  cursor: pointer;
+}
+.skills {
+  display: flex;
+}
+
+.xyz {
+  flex: 33.33%;
+  padding: px;
+}
+
+/*Made with love*/
+#madewithlove{
+  font-family: "Source Sans Pro", sans-serif;
+  margin-top: 220px;
+  margin-right: auto;
+}
+}
+
+/*Small Desktops*/
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+  /*Main Text*/
+  #maintext {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    opacity: 0.7;
+    position: center;
+    margin-top: 100px ;
+    margin-left: 20px;
+  }
+  #p1 {
+    font-size: 40px;
+    line-height: 0;
+  }
+  #p2 {
+    font-size: 20px;
+    line-height: 0.5;
+  }
+  
+  /*Navigation Bar Styling*/
+  #navbar{
+    opacity:0.9;
+    border-top-right-radius:30px;
+    border-bottom-right-radius:30px;
+    border-top-left-radius:30px;
+    border-bottom-left-radius:30px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;}
+  
+  button{
+    /*background-color: #24252A;*/
+  }
+  li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+  
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%; 
+  }
+  
+  #homebar{
+    cursor: pointer;
+  }
+  
+  .nav_links{
+    list-style:none;
+  }
+  .nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  .nav_links li a{
+    transition: all 0.3s ease 0s;
+  }
+  .nav_links li a:hover{
+    color: #04aa6d;
+  }
+  button{
+    padding: 9px 25px;
+    background-color: #04aa6d;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-right: 10px;
+    
+  }
+  button:hover{
+    background-color: #00bf72;
+  }
+  
+  /*CV/Resume Button*/
+  #cv{
+    padding: 9px 25px;
+    background-color: #04aa6d;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: black;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+  }
+  
+  #cv:hover{
+    background-color: #00bf72;
+  }
+  
+  /*Skills*/
+  #my_skills{
+    text-align: right;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    opacity: 0.7;
+    position: relative; 
+    margin-right: 320px;
+    margin-top: 50px;
+  }
+  .skills{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    margin-left: 280px;
+    margin-top: -20px;
+  }
+  #c{
+    width: 33px;
+    height: 33px;
+    cursor: pointer;
+  }
+  .skills {
+    display: flex;
+  }
+  
+  .xyz {
+    flex: 33.33%;
+    padding: px;
+  }
+  
+  /*Made with love*/
+  #madewithlove{
+    font-family: "Source Sans Pro", sans-serif;
+    margin-top: 40px;
+    margin-right: auto;
+  }
+}
+
+/*Ipads and Tablets 1*/
+@media only screen and (min-width: 632px) and (max-width: 768px){
+  /*Main Text*/
+  #maintext {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    opacity: 0.7;
+    position: center;
+    margin-top: 100px ;
+    margin-left: 20px;
+  }
+  #p1 {
+    font-size: 40px;
+    line-height: 0;
+  }
+  #p2 {
+    font-size: 20px;
+    line-height: 0.5;
+  }
+  
+  /*Navigation Bar Styling*/
+  #navbar{
+    opacity:0.9;
+    border-top-right-radius:30px;
+    border-bottom-right-radius:30px;
+    border-top-left-radius:30px;
+    border-bottom-left-radius:30px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;}
+  
+  button{
+    /*background-color: #24252A;*/
+  }
+  li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+  
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%; 
+  }
+  
+  #homebar{
+    cursor: pointer;
+  }
+  
+  .nav_links{
+    list-style:none;
+  }
+  .nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  .nav_links li a{
+    transition: all 0.3s ease 0s;
+  }
+  .nav_links li a:hover{
+    color: #04aa6d;
+  }
+  button{
+    padding: 9px 25px;
+    background-color: #04aa6d;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-right: 10px;
+    
+  }
+  button:hover{
+    background-color: #00bf72;
+  }
+  
+  /*CV/Resume Button*/
+  #cv{
+    padding: 9px 25px;
+    background-color: #04aa6d;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: black;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+  }
+  
+  #cv:hover{
+    background-color: #00bf72;
+  }
+  
+  /*Skills*/
+  #my_skills{
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    opacity: 0.7;
+    position: center; 
+    margin-top: 50px;
+  }
+  .skills{
+    position: center;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    margin-left: 240px;
+    margin-top: -20px;
+  }
+  #c{
+    width: 33px;
+    height: 33px;
+    cursor: pointer;
+  }
+  .skills {
+    display: flex;
+  }
+  
+  .xyz {
+    flex: 33.33%;
+    padding: px;
+  }
+  
+  /*Made with love*/
+  #madewithlove{
+    font-family: "Source Sans Pro", sans-serif;
+    margin-top: 40px;
+    margin-right: auto;
+  }
+}
+
+/*Ipads and Tablets 2*/
+@media only screen and (min-width: 481px) and (max-width: 631px){
+  /*Main Text*/
+  #maintext {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    opacity: 0.7;
+    position: center;
+    margin-top: 100px ;
+    margin-left: 20px;
+  }
+  #p1 {
+    font-size: 40px;
+    line-height: 0;
+  }
+  #p2 {
+    font-size: 20px;
+    line-height: 0.5;
+  }
+  
+  /*Navigation Bar Styling*/
+  #navbar{
+    opacity:0.9;
+    border-top-right-radius:30px;
+    border-bottom-right-radius:30px;
+    border-top-left-radius:30px;
+    border-bottom-left-radius:30px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;}
+  
+  button{
+    /*background-color: #24252A;*/
+  }
+  li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+  
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%; 
+  }
+  
+  #homebar{
+    cursor: pointer;
+  }
+  
+  .nav_links{
+    list-style:none;
+  }
+  .nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  .nav_links li a{
+    transition: all 0.3s ease 0s;
+  }
+  .nav_links li a:hover{
+    color: #04aa6d;
+  }
+  button{
+    padding: 9px 25px;
+    background-color: #04aa6d;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-right: 10px;
+    
+  }
+  button:hover{
+    background-color: #00bf72;
+  }
+  
+  /*CV/Resume Button*/
+  #cv{
+    padding: 9px 25px;
+    background-color: #04aa6d;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: black;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+  }
+  
+  #cv:hover{
+    background-color: #00bf72;
+  }
+  
+  /*Skills*/
+  #my_skills{
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    opacity: 0.7;
+    position: center; 
+    margin-top: 50px;
+  }
+  .skills{
+    position: center;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    margin-left: 170px;
+    margin-top: -20px;
+  }
+  #c{
+    width: 33px;
+    height: 33px;
+    cursor: pointer;
+  }
+  .skills {
+    display: flex;
+  }
+  
+  .xyz {
+    flex: 33.33%;
+    padding: px;
+  }
+  
+  /*Made with love*/
+  #madewithlove{
+    font-family: "Source Sans Pro", sans-serif;
+    margin-top: 40px;
+    margin-right: auto;
+  }
+}
+
+/*Mobile Phones*/
+@media only screen and (min-width: 320px) and (max-width: 480px){
+ /*Main Text*/
+ #maintext {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  opacity: 0.7;
+  position: center;
+  margin-top: 100px ;
+  margin-left: 20px;
+}
+#p1 {
+  font-size: 40px;
+  line-height: 0;
+}
+#p2 {
+  font-size: 20px;
+  line-height: 0.5;
+}
+
+/*Navigation Bar Styling*/
+#navbar{
+  opacity:0.9;
+  border-top-right-radius:30px;
+  border-bottom-right-radius:30px;
+  border-top-left-radius:30px;
+  border-bottom-left-radius:30px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #24252A;}
+
+button{
+  /*background-color: #24252A;*/
+}
+li, a, button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 10%; 
+}
+
+#homebar{
+  cursor: pointer;
+}
+
+.nav_links{
+  list-style:none;
+}
+.nav_links li{
+  display: inline-block;
+  padding: 0px 2px;
+}
+.nav_links li a{
+  transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+  color: #04aa6d;
+}
+button{
+  padding: 9px 25px;
+  background-color: #04aa6d;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-right: 10px;
+  
+}
+button:hover{
+  background-color: #00bf72;
+}
+
+/*CV/Resume Button*/
+#cv{
+  padding: 9px 25px;
+  background-color: #04aa6d;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: black;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+}
+
+#cv:hover{
+  background-color: #00bf72;
+}
+
+/*Skills*/
+#my_skills{
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  opacity: 0.7;
+  position: center; 
+  margin-top: 50px;
+}
+.skills{
+  position: center;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  margin-left: 90px;
+  margin-top: -20px;
+}
+#c{
+  width: 33px;
+  height: 33px;
+  cursor: pointer;
+}
+.skills {
+  display: flex;
+}
+
+.xyz {
+  flex: 33.33%;
+  padding: px;
+}
+
+/*Made with love*/
+#madewithlove{
+  font-family: "Source Sans Pro", sans-serif;
+  margin-top: 40px;
+  margin-right: auto;
+}
+}

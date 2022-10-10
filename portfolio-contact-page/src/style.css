@@ -1,0 +1,133 @@
+body{
+  background-color: #f1fff6;
+}
+
+/*Navigation Bar Styling*/
+#navbar{
+  font-weight: bold;
+  opacity:0.9;
+  border-top-right-radius:30px;
+  border-bottom-right-radius:30px;
+  border-top-left-radius:30px;
+  border-bottom-left-radius:30px;
+  box-sizing: border-box;
+  margin_ 0;
+  padding: 0;
+  background-color: #24252A}
+
+button{
+  /*background-color: #24252A;*/
+}
+li, a, button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 10%; 
+}
+
+#homebar{
+  cursor: pointer;
+}
+
+.nav_links{
+  list-style:none;
+}
+.nav_links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav_links li a{
+  transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+  color: #04aa6d;
+}
+#contact{
+  padding: 9px 25px;
+  background-color: #04aa6d;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-right: 10px;
+  
+}
+#contact:hover{
+  background-color: #00bf72;
+}
+
+/*Contact Logos*/
+#contactme{
+  font-size: 40px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  opacity: 0.7;
+  margin-left: 260px;
+  margin-top: 200px;
+}
+
+.contact{
+  display:inline-block; 
+  margin-top: -30px;
+  margin-left:250px;
+  margin-right:0px;
+  padding-left:0px;
+  padding-right:0px;
+  cursor: pointer;
+}
+
+/*Form*/
+.contact-box{
+  font-family: "Source Sans Pro", sans-serif;
+  width: 300px;
+  background-color: #f1fff6;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-shadow: 0 0 20px 0 #999;
+  position: absolute;
+  margin-left: 250px;
+  margin-top: 50px;
+}
+form{
+  margin: 35px;
+}
+.input-field{
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  border: 1px solid #777;
+  border-radius: 14px;
+  outline: none;
+}
+.textarea-field{
+  font-family: "Source Sans Pro", sans-serif;
+  height: 150px;
+  padding-top: 10px;
+}
+.btn{
+  border-radius: 20px;
+  color: #fff;
+  margin-top: 18px;
+  padding: 10px;
+  background-color: #04aa6d;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+/*Made with love*/
+#madewithlove{
+  font-family: "Source Sans Pro", sans-serif;
+  margin-top: 210px;
+  margin-left: 1250px;
+}
