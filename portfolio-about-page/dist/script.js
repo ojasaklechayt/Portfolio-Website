@@ -1,5 +1,5 @@
 function opencv(){
-  window.open("https://github.com/ojasaklechayt/portfolio-website/blob/main/Resume-Ojas-Aklecha.pdf");
+  window.open("https://github.com/ojasaklechayt/Portfolio-Website/blob/1a1b327d37f25a502b0bb6531333e92671e7b970/Photos%20and%20Documents/Resume-Ojas-Aklecha.pdf");
 }
 
 function python(){
